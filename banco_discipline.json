@@ -1,0 +1,572 @@
+[
+  {
+    "id": "00cXWq4tOAqdzCxJRpO312",
+    "name": "Regimento dos Tribunais",
+    "abbreviation": "Reg. Trib.",
+    "oldId": null,
+    "sequential": 38,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "09YG3rPO1H9cvimwjq1X02",
+    "name": "Legislação Aplicada ao INSS",
+    "abbreviation": "Leg. INSS",
+    "oldId": null,
+    "sequential": 57,
+    "createdAt": "2019-06-12T00:00:00.000Z",
+    "updatedAt": "2019-06-12T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "09gPFp7Bck2S0lKMd84Lxg",
+    "name": "Legislação de Trânsito",
+    "abbreviation": "Leg. Trânsito",
+    "oldId": null,
+    "sequential": 50,
+    "createdAt": "2018-11-14T00:00:00.000Z",
+    "updatedAt": "2018-11-14T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "0SLmcjPQ1bi16RTwTckZow",
+    "name": "Direito Processual Civil",
+    "abbreviation": "D. P. Civ.",
+    "oldId": null,
+    "sequential": 4,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "0arI4sAKZEE1csCCRxUE8l",
+    "name": "Atualidades",
+    "abbreviation": "Atualid.",
+    "oldId": null,
+    "sequential": 52,
+    "createdAt": "2018-12-13T00:00:00.000Z",
+    "updatedAt": "2018-12-13T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "0bhwx4tyn0YV8J7NkivCra",
+    "name": "Ética no Serviço Público",
+    "abbreviation": "Ética S.P.",
+    "oldId": null,
+    "sequential": 47,
+    "createdAt": "2018-09-10T00:00:00.000Z",
+    "updatedAt": "2018-09-10T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "0d1SyMXKBD0jvku6vtS9b2",
+    "name": "Contabilidade Geral",
+    "abbreviation": "Cont. Ger.",
+    "oldId": null,
+    "sequential": 32,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "0ipGqCgIQ6A43DyqcKT5dV",
+    "name": "Português",
+    "abbreviation": "Port.",
+    "oldId": null,
+    "sequential": 17,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "0jgWlP90IpHKmbOx81XliD",
+    "name": "Raciocínio Lógico",
+    "abbreviation": "Rac. Lóg.",
+    "oldId": null,
+    "sequential": 20,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "0kiuxPWIjRkYovh9tijSEd",
+    "name": "Direito Civil",
+    "abbreviation": "D. Civ.",
+    "oldId": null,
+    "sequential": 3,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "16VZ5KowJs1IxdRkpxPguJ",
+    "name": "Legislação Aplicada ao MPPE",
+    "abbreviation": "Leg. MPPE",
+    "oldId": null,
+    "sequential": 49,
+    "createdAt": "2018-10-16T00:00:00.000Z",
+    "updatedAt": "2018-10-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "1BknfmIytKCyfVfZ13IYU6",
+    "name": "Geopolítica Brasileira",
+    "abbreviation": "Geopolít.",
+    "oldId": null,
+    "sequential": 53,
+    "createdAt": "2018-12-13T00:00:00.000Z",
+    "updatedAt": "2018-12-13T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "1GwBKmTP5prMfr6rsB0eDb",
+    "name": "Direito Tributário",
+    "abbreviation": "D. Trib.",
+    "oldId": null,
+    "sequential": 14,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "1e4Doykn6DYnupZKsya8YE",
+    "name": "Direito Processual do Trabalho",
+    "abbreviation": "D. P. Trab.",
+    "oldId": null,
+    "sequential": 13,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "1g19bO6JCwlRIbOGWm5w67",
+    "name": "Direito Internacional",
+    "abbreviation": "D. Int.",
+    "oldId": null,
+    "sequential": 9,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "1hLzM7oyFr1EMgsBDivKhd",
+    "name": "Direito Financeiro",
+    "abbreviation": "D. Fin.",
+    "oldId": null,
+    "sequential": 28,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "26PuZfAXb3a5bf1LpR9xVu",
+    "name": "Administração Financeira e Orçamentária",
+    "abbreviation": "Adm. Fin. Orç.",
+    "oldId": null,
+    "sequential": 30,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "29DYwdVzbTO4e8ZcKpktUL",
+    "name": "Direito Eleitoral",
+    "abbreviation": "D. Ele.",
+    "oldId": null,
+    "sequential": 29,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "2Udr6NUzlvcSHDsO14PC97",
+    "name": "Estatuto da Criança e do Adolescente",
+    "abbreviation": "ECA",
+    "oldId": null,
+    "sequential": 15,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "2lTUiufz7wisMY8CzKy2Sg",
+    "name": "Arquivologia",
+    "abbreviation": "Arquiv.",
+    "oldId": null,
+    "sequential": 45,
+    "createdAt": "2018-08-30T00:00:00.000Z",
+    "updatedAt": "2018-08-30T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "2pA2A0SPGx6jSQ3YtYVM23",
+    "name": "Administração Pública",
+    "abbreviation": "Adm. Púb.",
+    "oldId": null,
+    "sequential": 25,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "2qIdjzmu3KM2E5zZDVLNvt",
+    "name": "Direito Processual Civil - CPC 1973",
+    "abbreviation": "D. P. Civ. 73",
+    "oldId": null,
+    "sequential": 42,
+    "createdAt": "2018-05-28T00:00:00.000Z",
+    "updatedAt": "2018-05-28T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "33otw16SkFlIU4oyX0ZZjT",
+    "name": "Direito Notarial e Registral",
+    "abbreviation": "D. Not. Reg.",
+    "oldId": null,
+    "sequential": 27,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "38ZKUQnnDSTUwNYOXUR7vA",
+    "name": "Administração de Recursos Materiais",
+    "abbreviation": "Adm. Rec. Mat.",
+    "oldId": null,
+    "sequential": 21,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "3CdnRJqpzn2UIeE2P6ECh7",
+    "name": "Direito Penal Militar",
+    "abbreviation": "D. Pen. Mil.",
+    "oldId": null,
+    "sequential": 43,
+    "createdAt": "2018-08-27T00:00:00.000Z",
+    "updatedAt": "2018-08-27T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "3O7k0in8YnB7BX58n7BiJr",
+    "name": "Redes de Computadores",
+    "abbreviation": "R. de Comp.",
+    "oldId": null,
+    "sequential": 31,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "3UmOWCIcEFU3erortMoUxQ",
+    "name": "Ética",
+    "abbreviation": "Ética",
+    "oldId": null,
+    "sequential": 16,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "3brLIqUHP4QKYnnYO1WdFq",
+    "name": "Direito Penal",
+    "abbreviation": "D. Pen.",
+    "oldId": null,
+    "sequential": 10,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "3qRjtIs2d9GdAVAttvewDt",
+    "name": "Direito Processual Penal",
+    "abbreviation": "D. P. Pen.",
+    "oldId": null,
+    "sequential": 11,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "3yudtbeI3YBe0KN0HKA4oi",
+    "name": "Direito Previdenciário",
+    "abbreviation": "D. Prev.",
+    "oldId": null,
+    "sequential": 23,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "44upuvXo9yJb8L2tRC8gv5",
+    "name": "Direito do Trabalho",
+    "abbreviation": "D. Trab.",
+    "oldId": null,
+    "sequential": 12,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "45D5AkfltnXcMIaUcboS0H",
+    "name": "Matemática",
+    "abbreviation": "Matem.",
+    "oldId": null,
+    "sequential": 18,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "47IRPvSAMeZEbEo8PorR1Y",
+    "name": "Direito Ambiental",
+    "abbreviation": "D. Amb.",
+    "oldId": null,
+    "sequential": 1,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "4gTotXi1mlZkCn6xIJgDB7",
+    "name": "Sustentabilidade",
+    "abbreviation": "Sust.",
+    "oldId": null,
+    "sequential": 40,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "4pqclywopyYnzubymKe52w",
+    "name": "Direito Empresarial",
+    "abbreviation": "D. Emp.",
+    "oldId": null,
+    "sequential": 7,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "4vj47ustzp4Hh3P7k5Xh61",
+    "name": "História da PRF",
+    "abbreviation": "Hist. PRF",
+    "oldId": null,
+    "sequential": 54,
+    "createdAt": "2019-01-11T16:00:00.000Z",
+    "updatedAt": "2019-01-11T16:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "5D295Dc9NEOpMrwByp5vtt",
+    "name": "Informática",
+    "abbreviation": "Inform.",
+    "oldId": null,
+    "sequential": 22,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "5LzxlEJix1jTOUoGhTFpqY",
+    "name": "Estatuto do Idoso",
+    "abbreviation": "Est. Idoso",
+    "oldId": null,
+    "sequential": 36,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "5oepJhlz632n4BYZDWUTqt",
+    "name": "Direito do Consumidor",
+    "abbreviation": "D. Consum.",
+    "oldId": null,
+    "sequential": 6,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "5uyfj1ahmjlUbp0pfanwY4",
+    "name": "Administração Geral",
+    "abbreviation": "Adm. Ger.",
+    "oldId": null,
+    "sequential": 24,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "5velWamFSOnKeQlfwyB6qM",
+    "name": "Física",
+    "abbreviation": "Física",
+    "oldId": null,
+    "sequential": 51,
+    "createdAt": "2018-12-11T00:00:00.000Z",
+    "updatedAt": "2018-12-11T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "5wgwwB5EAahc4VObyIGgpz",
+    "name": "Legislação da Assistência Social, Saúde do Trabalhador e da Pessoa com Deficiência",
+    "abbreviation": "L. Ass. Soc.",
+    "oldId": null,
+    "sequential": 55,
+    "createdAt": "2019-01-18T00:00:00.000Z",
+    "updatedAt": "2019-01-18T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "5xPeNxQwfEVTYx6cw2BLRD",
+    "name": "Estatuto da Pessoa com Deficiência",
+    "abbreviation": "Est. P. Def.",
+    "oldId": null,
+    "sequential": 39,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "65Q2RIFUUtwKNHueGLsg9K",
+    "name": "Auditoria",
+    "abbreviation": "Aud.",
+    "oldId": null,
+    "sequential": 34,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "65gAWzNyA4VpK0v0OFYuHg",
+    "name": "Filosofia do Direito",
+    "abbreviation": "Fil. Direito",
+    "oldId": null,
+    "sequential": 41,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "695etBjGRsDp1AxOLzHIQ0",
+    "name": "Direito Administrativo",
+    "abbreviation": "D. Adm.",
+    "oldId": null,
+    "sequential": 2,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "6FPolGDMrDkV6k2Zd5dpk0",
+    "name": "Legislação Estadual",
+    "abbreviation": "Leg. Est.",
+    "oldId": null,
+    "sequential": 37,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "6InivIxNdUoCCfWy4bleyK",
+    "name": "Serviço Social",
+    "abbreviation": "Serv. Soc.",
+    "oldId": null,
+    "sequential": 56,
+    "createdAt": "2019-01-18T00:00:00.000Z",
+    "updatedAt": "2019-01-18T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "6NOWn7GOuzvXW0fiJKFHt4",
+    "name": "Direitos Humanos",
+    "abbreviation": "D. Hum.",
+    "oldId": null,
+    "sequential": 8,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "6OdgrGb8FuccUJeOI7p8uM",
+    "name": "Contabilidade Pública",
+    "abbreviation": "Cont. Púb.",
+    "oldId": null,
+    "sequential": 33,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "6RnlD54fiNKIpRTlWOCIeE",
+    "name": "Promoção da Igualdade Racial",
+    "abbreviation": "Prom. Ig. Rac.",
+    "oldId": null,
+    "sequential": 48,
+    "createdAt": "2018-09-10T00:00:00.000Z",
+    "updatedAt": "2018-09-10T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "6rBi2VSQCiYe46d940Br9c",
+    "name": "Legislação Aplicada ao MPU e CNMP",
+    "abbreviation": "L. do MP",
+    "oldId": null,
+    "sequential": 46,
+    "createdAt": "2018-08-30T00:00:00.000Z",
+    "updatedAt": "2018-08-30T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "6uZlO1kcqCircdMyaHPsG9",
+    "name": "Administração Geral e Pública",
+    "abbreviation": "Adm. Ger. Púb.",
+    "oldId": null,
+    "sequential": 19,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "7BHLi56y7MRyVcTYlNg9zh",
+    "name": "Direito Constitucional",
+    "abbreviation": "D. Const.",
+    "oldId": null,
+    "sequential": 5,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "7CpERmSnMuFe7OUp2lCgUl",
+    "name": "Direito Sanitário",
+    "abbreviation": "D. San.",
+    "oldId": null,
+    "sequential": 26,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "7fULTFjAE1ps9xMfqbHPeb",
+    "name": "Direito Processual Penal Militar",
+    "abbreviation": "D. P. Pen. Mil.",
+    "oldId": null,
+    "sequential": 44,
+    "createdAt": "2018-08-27T00:00:00.000Z",
+    "updatedAt": "2018-08-27T00:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": "7gdwtFSlMRqypEcNMPCqLW",
+    "name": "Controle Externo",
+    "abbreviation": "C. Ext.",
+    "oldId": null,
+    "sequential": 35,
+    "createdAt": "2018-03-16T00:00:00.000Z",
+    "updatedAt": "2018-03-16T00:00:00.000Z",
+    "deletedAt": null
+  }
+]
