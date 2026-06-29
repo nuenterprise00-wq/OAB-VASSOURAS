@@ -26,6 +26,15 @@ export interface Question {
   sequential: number;
   discipline_id: string;
   disciplines?: { id: string; name: string; abbreviation: string };
+  question_options?: QuestionOption[];
+}
+
+export interface QuestionOption {
+  id: number;
+  question_id: string;
+  label: string;
+  text: string;
+  is_correct: boolean;
 }
 
 export interface Objective {
@@ -80,7 +89,8 @@ export async function getQuestions({
     .from('questions')
     .select(
       `id, wording, type, difficulty, sequential, discipline_id,
-       disciplines (id, name, abbreviation)`,
+       disciplines (id, name, abbreviation),
+       question_options (id, label, text, is_correct)`,
       { count: 'exact' }
     )
     .is('deleted_at', null)
@@ -101,7 +111,8 @@ export async function getQuestionById(id: string): Promise<Question | null> {
     .from('questions')
     .select(
       `id, wording, type, difficulty, remark, sequential, discipline_id,
-       disciplines (id, name, abbreviation)`
+       disciplines (id, name, abbreviation),
+       question_options (id, label, text, is_correct)`
     )
     .eq('id', id)
     .single();
@@ -120,7 +131,8 @@ export async function getRandomQuestions(
     .from('questions')
     .select(
       `id, wording, type, difficulty, sequential, discipline_id,
-       disciplines (id, name, abbreviation)`
+       disciplines (id, name, abbreviation),
+       question_options (id, label, text, is_correct)`
     )
     .is('deleted_at', null)
     .eq('type', 'ClosedQuestion');

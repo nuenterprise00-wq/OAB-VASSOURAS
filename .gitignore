@@ -1,0 +1,10 @@
+node_modules/
+.env*.local
+.next/
+dist/
+build/
+.claude/
+.gemini/
+antigravity-ide/
+.mcp.json
+.antigravityignore

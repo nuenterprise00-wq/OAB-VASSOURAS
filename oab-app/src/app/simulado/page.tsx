@@ -260,28 +260,60 @@ export default function SimuladoPage() {
                 {truncateHtml(questions[currentIndex].wording)}
               </div>
 
-              {/* Placeholder options — since we don't have options data */}
-              <div
-                style={{
-                  background: "var(--bg-surface-hover)",
-                  border: "1px solid var(--border-subtle)",
-                  borderRadius: "var(--radius-md)",
-                  padding: "1.25rem",
-                  marginBottom: "1rem",
-                }}
-              >
-                <p
+              {questions[currentIndex].question_options && questions[currentIndex].question_options!.length > 0 ? (
+                <div className="options-container">
+                  {questions[currentIndex].question_options!.map((opt) => {
+                    const selected = answers[currentIndex]?.selected;
+                    const answered = selected !== null;
+                    const isCorrect = opt.is_correct;
+                    const isSelected = selected === opt.label;
+                    
+                    let btnClass = "option-btn";
+                    if (answered) {
+                      if (isCorrect) btnClass += " correct";
+                      else if (isSelected) btnClass += " wrong";
+                    }
+
+                    return (
+                      <button
+                        key={opt.id}
+                        className={btnClass}
+                        onClick={() => {
+                          handleAnswer(opt.label);
+                          setShowExplanation(true);
+                        }}
+                        disabled={answered}
+                      >
+                        <span className="option-btn-label">{opt.label}</span>
+                        <span>{opt.text}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+              ) : (
+                /* Placeholder options — since we don't have options data */
+                <div
                   style={{
-                    fontSize: "0.85rem",
-                    color: "var(--text-tertiary)",
-                    textAlign: "center",
+                    background: "var(--bg-surface-hover)",
+                    border: "1px solid var(--border-subtle)",
+                    borderRadius: "var(--radius-md)",
+                    padding: "1.25rem",
+                    marginBottom: "1rem",
                   }}
                 >
-                  ⚠️ As alternativas serão exibidas quando os dados de opções forem importados.
-                  <br />
-                  Por enquanto, use os botões abaixo para navegar pelas questões.
-                </p>
-              </div>
+                  <p
+                    style={{
+                      fontSize: "0.85rem",
+                      color: "var(--text-tertiary)",
+                      textAlign: "center",
+                    }}
+                  >
+                    ⚠️ As alternativas serão exibidas quando os dados de opções forem importados.
+                    <br />
+                    Por enquanto, use os botões abaixo para navegar pelas questões.
+                  </p>
+                </div>
+              )}
 
               {/* Show explanation toggle */}
               {questions[currentIndex].remark && (
@@ -386,68 +418,94 @@ export default function SimuladoPage() {
         )}
 
         {/* RESULT STATE */}
-        {state === "result" && (
-          <div className="animate-in">
-            <div className="simulado-result">
-              <div style={{ fontSize: "4rem", marginBottom: "1rem" }}>🏆</div>
-              <h2
-                style={{
-                  fontSize: "1.5rem",
-                  fontWeight: 700,
-                  marginBottom: "2rem",
-                }}
-              >
-                Simulado Concluído!
-              </h2>
+        {state === "result" && (() => {
+          const score = answers.reduce((acc, a) => {
+            const q = questions.find((q) => q.id === a.questionId);
+            if (!q || !q.question_options) return acc;
+            const selectedOpt = q.question_options.find((opt) => opt.label === a.selected);
+            if (selectedOpt && selectedOpt.is_correct) {
+              return acc + 1;
+            }
+            return acc;
+          }, 0);
+          
+          const scorePct = answeredCount > 0 ? Math.round((score / answeredCount) * 100) : 0;
 
-              <div className="stats-grid" style={{ maxWidth: 600, margin: "0 auto 2rem" }}>
-                <div className="stat-card">
-                  <div className="stat-number">{questions.length}</div>
-                  <div className="stat-label">Questões</div>
-                </div>
-                <div className="stat-card">
-                  <div className="stat-number">{answeredCount}</div>
-                  <div className="stat-label">Respondidas</div>
-                </div>
-                <div className="stat-card">
-                  <div className="stat-number">{formatTime(timer)}</div>
-                  <div className="stat-label">Tempo Total</div>
-                </div>
-              </div>
-
-              <p
-                style={{
-                  color: "var(--text-secondary)",
-                  marginBottom: "2rem",
-                  maxWidth: 500,
-                  margin: "0 auto 2rem",
-                }}
-              >
-                As alternativas e pontuação estarão disponíveis quando os dados de
-                opções forem importados para o Supabase.
-              </p>
-
-              <div
-                style={{
-                  display: "flex",
-                  gap: "1rem",
-                  justifyContent: "center",
-                  flexWrap: "wrap",
-                }}
-              >
-                <button
-                  className="btn btn-primary btn-lg"
-                  onClick={restartSimulado}
+          return (
+            <div className="animate-in">
+              <div className="simulado-result">
+                <div style={{ fontSize: "4rem", marginBottom: "1rem" }}>🏆</div>
+                <h2
+                  style={{
+                    fontSize: "1.5rem",
+                    fontWeight: 700,
+                    marginBottom: "2rem",
+                  }}
                 >
-                  🔄 Novo Simulado
-                </button>
-                <a href="/" className="btn btn-secondary btn-lg">
-                  🏠 Voltar ao Início
-                </a>
+                  Simulado Concluído!
+                </h2>
+
+                <div className="stats-grid" style={{ maxWidth: 600, margin: "0 auto 2rem" }}>
+                  <div className="stat-card">
+                    <div className="stat-number">{questions.length}</div>
+                    <div className="stat-label">Questões</div>
+                  </div>
+                  <div className="stat-card">
+                    <div className="stat-number">
+                      {score} / {answeredCount}
+                    </div>
+                    <div className="stat-label">Acertos</div>
+                  </div>
+                  <div className="stat-card">
+                    <div className="stat-number">{scorePct}%</div>
+                    <div className="stat-label">Aproveitamento</div>
+                  </div>
+                  <div className="stat-card">
+                    <div className="stat-number">{formatTime(timer)}</div>
+                    <div className="stat-label">Tempo Total</div>
+                  </div>
+                </div>
+
+                {answers.some(a => {
+                  const q = questions.find(qu => qu.id === a.questionId);
+                  return !q?.question_options || q.question_options.length === 0;
+                }) && (
+                  <p
+                    style={{
+                      color: "var(--text-secondary)",
+                      marginBottom: "2rem",
+                      maxWidth: 500,
+                      margin: "0 auto 2rem",
+                      fontSize: "0.85rem",
+                    }}
+                  >
+                    ⚠️ Nota: Algumas questões não possuíam alternativas cadastradas e foram puladas na contagem de acertos.
+                  </p>
+                )}
+
+                <div
+                  style={{
+                    display: "flex",
+                    gap: "1rem",
+                    justifyContent: "center",
+                    flexWrap: "wrap",
+                    marginTop: "2rem"
+                  }}
+                >
+                  <button
+                    className="btn btn-primary btn-lg"
+                    onClick={restartSimulado}
+                  >
+                    🔄 Novo Simulado
+                  </button>
+                  <a href="/" className="btn btn-secondary btn-lg">
+                    🏠 Voltar ao Início
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-        )}
+          );
+        })()}
       </div>
     </div>
   );
